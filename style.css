@@ -11,7 +11,8 @@ h3{
     color:#458728;
     margin: 0 auto;
     
-}a{
+}
+a{
     font-size: 20pt; 
     color:#3d251e;
     font-weight: bold;
@@ -42,4 +43,35 @@ img{
     width: 500px;
     padding: 15px;
    
+}
+
+
+
+
+/* OOCSS Styles for editing later!!*/
+
+.white{
+    color:#ffffff;
+}
+.cream{
+    background-color:#C4A484;
+}
+.dark-green{
+    background-color:#006400 ;
+    color: #006400 ;
+}
+.light-green{
+    color: #eafeea;
+}
+.brown{
+    color:#3d251e
+}
+.flex{
+    display: flex;
+}
+.remove{
+    text-decoration: none;
+}
+.center1{
+    margin: 0 auto;     /*find the alternate way to do this */
 }
