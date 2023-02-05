@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
             let card = document.createElement('img')
-            card.setAttribute('src', 'images/greenBGI.svg')
+            card.setAttribute('src','images/greenBGI.svg')
             card.setAttribute('data-id', i) // attaches a data if to each card from 0-29
             card.addEventListener('click', flipCard)
             flex.appendChild(card)
@@ -179,6 +179,14 @@ document.addEventListener('DOMContentLoaded', () => {
             cards[optionOneId].setAttribute('src', 'images/greenBGI.svg')
             cards[optionTwoId].setAttribute('src', 'images/greenBGI.svg')
             alert(' Sorry, try again')
+            const playAgain = document.createElement('h2')
+            playAgain.innerHTML="Next Level!";
+            const heading = document.querySelector('.heading')
+            heading.appendChild(playAgain)
+            playAgain.style.border = "solid black"
+            playAgain.addEventListener('click',()=>{
+                window.location.href="index2.html/";
+            })
         }
         // if either of the two happen (card matches or does not match, clear the card array and cards chosen ID array)
         cardsChosen = []
@@ -188,13 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //if cards won === the length of cards array/2 alert user of completion of game
         if (cardsWon.length === cardArray.length / 2) {
             resultDisplay.textContent = ' Congrats! you win'
-            // if the player wins this block will create an ancor element, set it's text content to text, save .heading into a variable 
-            //called heading append the ancor elm to heading div, style itand set its attribute to the html page for level 2
-            const levelTwo = document.createElement('a')
-            levelTwo.textContent = "Next Level!";
-            const heading = document.querySelector('.heading')
-            heading.appendChild(levelTwo)
-            levelTwo.setAttribute('href', 'levelTwo.html')
+           
         }
     }
 
@@ -216,8 +218,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     createBoard()
-    checkForMatch()
-    flipCard()
+    //checkForMatch()
+   flipCard()
 
 })
 
