@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         // 30
     ]
-    // randomizing cardsx array using sort ad math.random
+    // randomizing cards array using sort ad math.random
     cardArray.sort(() => 0.5 - Math.random())
 
     //pick out element with the class name of flex out of html and store it into a variable
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // one card is already picked
 
     // checking for matches
-    function checkForMatch() {
+    function checkForMatch() { 
         //picking out all of the images created in function createboard, there are currently two values in cardsChosenArray and cardsChosenId array
         let cards = document.querySelectorAll('img')
         // get the first value in the array and store it in a constant variable

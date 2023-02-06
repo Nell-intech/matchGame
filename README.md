@@ -2,6 +2,8 @@
 
 ## A functional game based on an old school favorite - Match
 
+https://nell-intech.github.io/matchGame/
+
 PART 2a - DESCRIPTIVE PARAGRAPH
 Match is a game that continues to touched the soul of anywhere between 5 and beyond. It is a game the tests your memory by allowing you to pick and compare two cards out of a deck. If these cards match, the player is on their way towards winning the game. If they do not hmmm better luck next time! 
 
@@ -11,7 +13,7 @@ Match is a game that continues to touched the soul of anywhere between 5 and bey
  * How to use OOCSS to your advantage as a Web Developer
  * Two ways to set up a git repository 
  * How to push your projects tto Github
- * Basic Git commands every Developer should know
+ * Basic Git commands every Developer should know 
  
  ## Below is a media resource that gives a better idea of the game. This is whaat you'd expect.
 
@@ -63,5 +65,7 @@ This proect is still ongoing. Below are a list of known issues that have not bee
 1. The code can be a lot cleaner. I would love to work on refractoring the code by integrating OOP and OOCSS. I believe this will also help with the readability of the code and in turn, this will help fix bugs.
 2. An improvment focus in the UI/UX Design for this project would be a nice challenge
 3. Increase the levels
-
+4. Making it a two player game to test speed of player 
+5. Changing the for loop to a forEach to loop over array of cards and //do something
+6. reset button
 ###### Thank You!  <:-D
