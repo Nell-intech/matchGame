@@ -171,8 +171,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (cardsChosen[0] === cardsChosen[1]) {
             alert('Match!')
             //if it is true then assign the cards a white png ("removing card")
-            cards[optionOneId].setAttribute('src', 'images/eafeea.png')
-            cards[optionTwoId].setAttribute('src', 'images/eafeea.png')
+            cards[optionOneId].setAttribute('src', 'images/dark-green.png')
+            cards[optionTwoId].setAttribute('src', 'images/dark-green.png')
             cardsWon.push(cardsChosen)
         } else {
             //if the cars are not a match turn them back over allowing player to chose them again
